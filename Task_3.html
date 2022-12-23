@@ -1,0 +1,76 @@
+<!-- first solution has more characters and inaccuracies -->
+<div class="orange">
+  <div class="lightblue">
+    <div class="darkblue">
+      <div class="yellow"></div>
+    </div>
+  </div>
+</div>
+<style>
+  body {
+    background: #6592cf;
+  }
+  .orange {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background: #243d83;
+    padding: 25;
+    margin: 67;
+    margin-left: 42;
+  }
+  .lightblue {
+    position: relative;
+    background: #6592cf;
+    width: 79.5%;
+    height: 200px;
+    border-radius: 50%;
+    padding: 1.6em;
+    margin-top: -75;
+  }
+  .darkblue {
+    position: relative;
+    background: #243d83;
+    width: 51%;
+    height: 51%;
+    border-radius: 50%;
+    padding: 1.5em;
+    margin: 25;
+  }
+  .yellow {
+    position: relative;
+    background: #eeb850;
+    width: 1.5%;
+    height: 1.5%;
+    border-radius: 50%;
+    padding: 1.52em;
+    margin: 25;
+  }
+</style>
+<!-- secons solution is correct but complicated -->
+<div class="one"></div>
+<div class="two"></div>
+<style>
+  body {
+    margin: 0;
+    background: #6592cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .one {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background: #243d83;
+  }
+  .two {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 50px solid #6592cf;
+    box-shadow: inset 0 0 0 50px #243d83;
+    background-color: #eeb850;
+  }
+</style>
