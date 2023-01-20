@@ -1,0 +1,61 @@
+<!-- version 1 -->
+<div class="a"></div>
+<div class="b"></div>
+<style>
+  body {
+    background: #0b2429;
+  }
+  .a {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #f3ac3c;
+    margin: 67px 117px;
+    transform: rotate(45deg);
+    border-top: 50px solid #1a4341;
+    border-left: 50px solid #998235;
+  }
+  .b {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #0b2429;
+    margin: 80px 21.5px;
+    box-shadow: 241px 0 #0b2429;
+  }
+</style>
+
+<!-- version 2 -->
+<span></span>
+<span></span>
+<div></div>
+<style>
+  body {
+    background: #0b2429;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #f3ac3c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -15px) rotate(45deg);
+  }
+  span {
+    width: 71px;
+    height: 70px;
+    position: absolute;
+    top: 80px;
+  }
+  span:nth-of-type(1) {
+    background: #998235;
+    left: 50%;
+    transform: translateX(-100%) skewY(-45deg);
+  }
+  span:nth-of-type(2) {
+    background: #1a4341;
+    right: 50%;
+    transform: translateX(100%) skewY(45deg);
+  }
+</style>
