@@ -1,45 +1,33 @@
-<!-- gotta redo it -->
-<div></div>
-<div></div>
-<div></div>
 <div></div>
 <style>
   body {
     background: #222;
   }
   div {
+    width: 50px;
+    border: 15px solid #f2994a;
+    margin: 86px 0 0 129px;
+    transform: rotate(-45deg);
+    box-shadow: -38px 100px #2d9cdb;
+    position: relative;
+  }
+  div:before,
+  div:after {
+    content: "";
     position: absolute;
-  }
-  div:nth-of-type(1) {
     width: 30px;
-    height: 100px;
+    height: 80px;
+  }
+  div:before {
     background: #f2994a;
-    transform: rotate(45deg);
-    top: 19.5%;
-    left: 38.8%;
+    left: -35px;
+    top: -15px;
+    border-radius: 10px 0 5px 0;
   }
-  div:nth-of-type(2) {
-    width: 30px;
-    height: 79px;
-    background: #f2994a;
-    transform: rotate(-45deg);
-    top: 37%;
-    left: 37%;
-  }
-  div:nth-of-type(3) {
-    width: 30px;
-    height: 79px;
+  div:after {
     background: #2d9cdb;
-    transform: rotate(-45deg);
-    top: 36.5%;
-    left: 55%;
-  }
-  div:nth-of-type(4) {
-    width: 30px;
-    height: 100px;
-    background: #2d9cdb;
-    transform: rotate(45deg);
-    top: 47%;
-    left: 53%;
+    left: 17px;
+    top: 35px;
+    border-radius: 5px 0 10px;
   }
 </style>
