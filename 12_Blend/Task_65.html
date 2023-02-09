@@ -1,0 +1,59 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  div:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    background: #5dbcf9;
+    border-radius: 10px 0 0 10px;
+    top: 125px;
+    left: 75px;
+  }
+  div:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    background: repeating-radial-gradient(
+      #191919,
+      #191919 15px,
+      #5dbcf9 15px,
+      #5dbcf9 25px
+    );
+    border-radius: 50%;
+    top: 50px;
+    left: 125px;
+  }
+  div:nth-child(3) {
+    width: 100px;
+    height: 200px;
+    background: #191919;
+    top: 50px;
+    left: 125px;
+  }
+  div:nth-child(4) {
+    width: 50px;
+    height: 50px;
+    background: #191919;
+    border-radius: 50%;
+    top: 125px;
+    left: 201px;
+  }
+  div:nth-child(5) {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #5dbcf9;
+    transform: rotate(90deg);
+    top: 100px;
+    left: 50px;
+  }
+</style>
