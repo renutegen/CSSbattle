@@ -1,0 +1,75 @@
+<!-- Variant 1 -->
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body {
+    background: #19191a;
+  }
+  div {
+    position: absolute;
+  }
+  div:nth-of-type(1) {
+    width: 150px;
+    height: 150px;
+    background: #4f77ff;
+    border-radius: 50%;
+    top: 50px;
+    left: 125px;
+  }
+  div:nth-of-type(2) {
+    width: 75px;
+    height: 125px;
+    background: #f9e492;
+    top: 125px;
+    left: 125px;
+  }
+  div:nth-of-type(3) {
+    width: 0px;
+    height: 0px;
+    border-left: 75px solid #9ad5ff;
+    border-right: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-radius: 100px 0;
+    transform: rotate(-90deg);
+    top: 87.5px;
+    left: 87.5px;
+  }
+</style>
+
+<!-- Variat 2 -->
+<div class="a">
+  <div class="b"></div>
+</div>
+<div class="c"></div>
+<style>
+  body {
+    background: #19191a;
+  }
+  div {
+    position: absolute;
+  }
+  .a {
+    width: 150px;
+    height: 150px;
+    background: #4f77ff;
+    border-radius: 50%;
+    top: 50px;
+    left: 125px;
+    overflow: hidden;
+  }
+  .b {
+    width: 75px;
+    height: 125px;
+    background: #9ad5ff;
+    top: 75px;
+  }
+  .c {
+    width: 75px;
+    height: 125px;
+    background: #f9e492;
+    top: 125px;
+    left: 125px;
+    z-index: -1;
+  }
+</style>
