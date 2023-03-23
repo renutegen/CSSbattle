@@ -1,0 +1,92 @@
+<div class="triangle"></div>
+<div class="eye"></div>
+<div class="eye"></div>
+<div class="shadow1">
+  <div class="color1"></div>
+</div>
+<div class="shadow2">
+  <div class="color2"></div>
+</div>
+<div class="pupil1"></div>
+<div class="pupil2"></div>
+<style>
+  body {
+    background: #bac7ce;
+  }
+  div {
+    position: absolute;
+  }
+  .triangle {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #475862;
+    top: -8.3px;
+    left: 100px;
+  }
+  .eye {
+    width: 120px;
+    height: 120px;
+    background: #000000;
+    border-radius: 0 50%;
+    transform: rotate(-15deg);
+    top: 130px;
+    left: 30px;
+  }
+  .eye:nth-of-type(2) {
+    transform: rotate(105deg);
+    top: 130px;
+    left: 250px;
+  }
+  .shadow1 {
+    width: 100px;
+    height: 100px;
+    background: #5a6042;
+    border-radius: 50%;
+    top: 140px;
+    left: 40px;
+    overflow: hidden;
+  }
+  .color1 {
+    width: 100px;
+    height: 100px;
+    background: #868a64;
+    border-radius: 50%;
+    top: 15px;
+    left: 0px;
+  }
+  .shadow2 {
+    width: 100px;
+    height: 100px;
+    background: #5a6042;
+    border-radius: 50%;
+    top: 140px;
+    left: 260px;
+    overflow: hidden;
+  }
+  .color2 {
+    width: 100px;
+    height: 100px;
+    background: #868a64;
+    border-radius: 50%;
+    top: 15px;
+    left: 0px;
+  }
+  .pupil1 {
+    width: 30px;
+    height: 30px;
+    background: #4e2b24;
+    border: 5px solid;
+    border-radius: 50%;
+    top: 170px;
+    left: 70px;
+  }
+  .pupil2 {
+    width: 30px;
+    height: 30px;
+    background: #4e2b24;
+    border: 5px solid;
+    border-radius: 50%;
+    top: 170px;
+    left: 290px;
+  }
+</style>

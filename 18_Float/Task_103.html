@@ -1,0 +1,80 @@
+<div class="hair"></div>
+<div class="hair"></div>
+<div class="hair"></div>
+<div class="hair"></div>
+<div class="hair"></div>
+<div class="hair"></div>
+<div class="face"></div>
+<div class="mouth"></div>
+<style>
+  body {
+    background: #161616;
+  }
+  div {
+    position: absolute;
+  }
+  .hair {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #ebae11 50%, transparent 50%);
+    border-radius: 50%;
+  }
+  .hair:nth-of-type(1) {
+    top: 130px;
+    left: 141px;
+    transform: rotate(-75deg);
+  }
+  .hair:nth-of-type(2) {
+    top: 130px;
+    left: 199px;
+    transform: rotate(255deg);
+  }
+  .hair:nth-of-type(3) {
+    top: 112px;
+    left: 155px;
+    transform: rotate(-30deg);
+    z-index: 1;
+  }
+  .hair:nth-of-type(4) {
+    top: 112px;
+    left: 185px;
+    transform: rotate(210deg);
+    z-index: 1;
+  }
+  .hair:nth-of-type(5) {
+    width: 150px;
+    height: 130px;
+    background: linear-gradient(to right, #ebae11 20px, transparent 20px);
+    border-radius: 150%;
+    top: 60px;
+    left: 182px;
+    z-index: 1;
+  }
+  .hair:nth-of-type(6) {
+    width: 150px;
+    height: 130px;
+    background: linear-gradient(to left, #ebae11 20px, transparent 20px);
+    border-radius: 150%;
+    top: 60px;
+    left: 68px;
+    z-index: 1;
+  }
+  .face {
+    width: 80px;
+    height: 56px;
+    background: linear-gradient(to right, #ffffff 50%, #ffdeb9 50%);
+    border-radius: 0 0 50px 50px;
+    top: 160px;
+    left: 160px;
+  }
+  .mouth {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to top, #161616 50%, transparent 50%);
+    border-radius: 0 0 50px 50px;
+    top: 186px;
+    left: 190px;
+    box-shadow: 0 -121.7px #161616;
+    z-index: 2;
+  }
+</style>

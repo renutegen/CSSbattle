@@ -1,0 +1,86 @@
+<div class="bone"></div>
+<div class="bone"></div>
+<div class="bone"></div>
+<div class="bone"></div>
+<div class="rounded_bone"></div>
+<div class="skull"></div>
+<div class="eye1"></div>
+<div class="eye2"></div>
+<div class="teeth"></div>
+<style>
+  body {
+    background: black;
+  }
+  div {
+    position: absolute;
+  }
+  .bone {
+    width: 20px;
+    height: 20px;
+    background: white;
+  }
+  .bone:nth-of-type(1) {
+    transform: rotate(-45deg);
+    top: 102.9px;
+    left: 113.3px;
+  }
+  .bone:nth-of-type(2) {
+    transform: rotate(45deg);
+    top: 102.8px;
+    left: 266.5px;
+  }
+  .bone:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 197px;
+    left: 267px;
+  }
+  .bone:nth-of-type(4) {
+    transform: rotate(45deg);
+    top: 197px;
+    left: 113.3px;
+  }
+  .rounded_bone {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    top: 84.5px;
+    left: 104.8px;
+    box-shadow: -10.5px 10.7px white, 175.5px 10.7px white, -10.5px 115px white,
+      0 126px white, 164.7px 126px white, 175.5px 115px white, 164.7px 0 white;
+  }
+  .skull {
+    width: 150px;
+    height: 100px;
+    background: white;
+    border-radius: 50px;
+    top: 110px;
+    left: 125px;
+  }
+  .eye1 {
+    width: 40px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    transform: rotate(-60deg);
+    top: 135px;
+    left: 210px;
+  }
+  .eye2 {
+    width: 40px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    transform: rotate(60deg);
+    top: 135px;
+    left: 150px;
+  }
+  .teeth {
+    width: 15px;
+    height: 20px;
+    background: white;
+    top: 220px;
+    left: 173px;
+    box-shadow: 20px 0 white, 40px 0 white;
+  }
+</style>
