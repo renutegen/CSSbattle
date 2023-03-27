@@ -1,0 +1,51 @@
+<div class="back"></div>
+<div class="wall"></div>
+<div class="rotatedwall"></div>
+<div class="wheel"></div>
+<div class="bullet"></div>
+<style>
+  div {
+    position: absolute;
+  }
+  .back {
+    width: 360px;
+    height: 260px;
+    background: #000000;
+    border: 20px solid #54c144;
+    top: 0;
+    left: 0;
+  }
+  .wall {
+    width: 80px;
+    height: 40px;
+    background: #c74e4e;
+    top: 60px;
+    left: 60px;
+    box-shadow: 120px 0 #c74e4e, 0 80px #c74e4e, 80px 80px #c74e4e,
+      120px 80px #c74e4e;
+  }
+  .rotatedwall {
+    width: 40px;
+    height: 180px;
+    background: #c74e4e;
+    top: 60px;
+    left: 300px;
+  }
+  .wheel {
+    width: 40px;
+    height: 10px;
+    background: #54c144;
+    top: 200px;
+    left: 60px;
+    box-shadow: 0 30px #54c144, 10px 15px #54c144;
+  }
+  .bullet {
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    top: 215px;
+    left: 120px;
+    box-shadow: 20px 0 #ffffff, -50px -5px #54c144, -40px -5px #54c144,
+      -50px 5px #54c144, -40px 5px #54c144;
+  }
+</style>
